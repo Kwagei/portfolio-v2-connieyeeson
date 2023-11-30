@@ -11,7 +11,7 @@ body {
     justify-content: space-between;
     margin-right: 10px;
     width: 100%;
-    border-bottom: 1px burlywood solid;
+    border-bottom: 1px #e6e1d9 solid;
 
 }
 
@@ -27,6 +27,8 @@ body {
 
 .heading p {
     color: #7934f9;
+    cursor: pointer;
+    margin-left: 25px;
 }
 
 .heading button {
@@ -37,7 +39,8 @@ body {
     background-color: blue;
     color:#ffffff ;
     border: none;
-    border-radius: 8%;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
 .heading svg {
@@ -46,3 +49,121 @@ body {
     margin-right: 10px;
     width: 14px;
 }
+
+nav:hover {
+
+   cursor: pointer;
+   background-color: #ffffff; 
+   width: 100px;
+   padding: 5px;
+   text-align: center;
+   border-radius: 10px;
+
+}
+
+.section1 {
+
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.section1 div {
+
+    width: 600px;
+}
+
+#introductionBar {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 25px;
+
+
+}
+
+#greet {
+
+    color:#787776;
+    background-color: #eeebe5;
+    border-radius:8px;
+    width: 110px;
+    padding: 8px;
+}
+
+.myName {
+    width: 300px;
+
+}
+
+.Explore {
+
+    color:#787776;
+    font-size: 15px;
+
+
+
+}
+
+.viewPort {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.viewPort p {
+
+    margin-left: 25px;
+    font-size: 15px;
+
+}
+
+.viewPort button {
+
+    background-color: #7934f9;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    height: 30px;
+    align-self:center;
+    color: #ffffff;
+
+}
+
+.viewPort svg {
+
+    margin-right: 5px;
+    width: 14px;
+}
+
+#portfolioData {
+
+    display: flex;
+    flex-direction:row;
+    padding: 10px;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #ffffff;
+    width: 700px;
+
+}
+
+#portfolioData p {
+
+    font-size: 15px;
+    color: #787776;
+
+}
+
+
+.Img1 img 
+
+    {
+
+        border-radius: 0px 0px 0px 10px;
+        padding: ;
+    
+    }
