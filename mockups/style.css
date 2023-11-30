@@ -1,0 +1,48 @@
+
+
+body {
+
+    background-color:#eeebe5 ;
+}
+.heading {
+
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    width: 100%;
+    border-bottom: 1px burlywood solid;
+
+}
+
+.heading div {
+
+    display: flex;
+    /* background-color: antiquewhite; */
+    padding: 6px;
+    width: 550px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading p {
+    color: #7934f9;
+}
+
+.heading button {
+
+    padding: 10px;
+    margin:10px;
+    display: flex;
+    background-color: blue;
+    color:#ffffff ;
+    border: none;
+    border-radius: 8%;
+}
+
+.heading svg {
+
+    display: flex;
+    margin-right: 10px;
+    width: 14px;
+}
