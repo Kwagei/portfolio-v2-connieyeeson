@@ -28,7 +28,7 @@ body {
 .heading p {
     color: #7934f9;
     cursor: pointer;
-    margin-left: 25px;
+    margin-left: 36px;
 }
 
 .heading button {
@@ -66,29 +66,34 @@ nav:hover {
     height: 500px;
     display: flex;
     justify-content: space-between;
+    width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
 
 
 }
 
-.section1 div {
 
-    width: 600px;
-}
 
 #introductionBar {
 
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin-left: 25px;
 
+
+}
+
+#introductionBar div {
+
+    width: 750px;
 
 }
 
 #greet {
 
     color:#787776;
-    background-color: #eeebe5;
+    background-color: #f5f3f0;
     border-radius:8px;
     width: 110px;
     padding: 8px;
@@ -144,10 +149,11 @@ nav:hover {
 
     display: flex;
     flex-direction:row;
+    justify-content: space-around;
     padding: 10px;
     border-radius: 10px 0px 0px 10px;
     background-color: #ffffff;
-    width: 700px;
+    width: 790px;
 
 }
 
@@ -158,12 +164,511 @@ nav:hover {
 
 }
 
+.Img1 {
 
+    background-color:#6b6666;
+    width: 480px;
+    border-radius: 0px 0px 0px 10px;
+
+}
+
+
+   
 .Img1 img 
 
     {
 
-        border-radius: 0px 0px 0px 10px;
-        padding: ;
-    
+        width: 480px;
+
+    }
+
+    .section2 {
+
+        display: flex;
+        flex-direction: column;
+        /* background: gold; */
+        align-items: center;
+    }
+
+    .section2 p {
+
+        margin-bottom: 50px;
+        font-size: 13px;
+    }
+
+    .webChats {
+
+        height: 500px;
+        display: flex;
+        flex-direction:column;
+        justify-content: space-around;
+        width: 1250px;
+        margin-left: auto;
+        margin-right:auto;
+
+    }
+
+    .webChats div {
+
+        height: 230px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .webChats div span {
+
+        background-color: #fcf3f3;
+        width: 350px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .webChats div span svg {
+
+        background-color: #7934f9;
+        width: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        border: violet 1px solid;
+    }
+
+    .webChats div span p {
+
+        font-size: 13px;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    .section3 {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .benefitsDiv {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;    
+            
+    }
+
+    .benefitsDiv div {
+
+
+        width: 1000px;
+        display: flex;
+        height: 190px;
+        padding: 10px;
+        align-items: center;
+    }
+
+    .benefitsDiv div span {
+
+        background-color: #fcf3f3;
+        width: 350px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 10px;
+    }
+
+     .benefitsDiv .childDiv1 span {
+        text-align: start;
+        width: 500px;
+        height: 150px;
+        padding: 5px;
+        font-size: 15px;
+
+    }
+
+    .benefitsDiv .childDiv2 span {
+
+        text-align: start;
+        width: 300px;
+        height: 220px;
+        padding: 5px;
+        font-size:15px;
+
+        
+    }
+    .benefitsDiv .childDiv1 b {
+        text-align: start;
+        margin-right: 190px;
+        width: 270px;
+    }
+
+    .benefitsDiv .childDiv2 b {
+        text-align: start;
+        margin-right: 25px;
+        width: 270px;
+    }
+
+    .section4 {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imgDiv  {
+
+        width: 1250px;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .imgDiv span {
+
+        background-color: #e6e1d9;
+        width: 350px;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+
+    .imgDiv  img {
+
+        width: 320px;
+        height: 270px;
+        margin-left: 15px;
+        border-radius: 5px;
+    }
+
+    .imgDiv div {
+
+        /* background-color: #787776; */
+        display: flex;
+        height: 55px;
+        justify-content: space-around;
+    }
+
+    .imgDiv div div {
+
+        /* background-color: #787776; */
+        display: flex;
+        height: 50px;
+        width: 60px;
+        align-items: center;
+        border-radius: 5px;
+    }
+    .imgDiv div div img {
+
+        width: 59px;
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        filter: blur(1px) brightness(80%) contrast(90%) ;
+    }
+
+    .imgDiv span .imG {
+        filter: none;
+        background-color: #6b6666;
+        
+    }
+
+    .imgDiv span p {
+
+        margin-left: 15px;
+    }
+
+    .ProjectViewer {
+
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+       
+    }
+
+    .ProjectViewer button {
+        background-color: blue;
+        color: #e6e1d9;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+       
+    }
+    .section4 h3{
+
+        margin-top: 40px;
+    }
+
+    .webData {
+        display: flex;
+        justify-content: space-between;
+        width: 1250px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 10px;
+        border-bottom: 1px solid gray;
+    }
+
+    .webData span {
+
+        width: 130px;
+        text-align: center;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+
+    .webData span img {
+
+        background-color: #e6e1d9;
+        flex-direction:column;
+        border-radius: 5px;
+    }
+
+    .userBar {
+
+        width: 1250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+        height: 400px;
+        padding: 10px;
+    }
+
+
+    .userBar div {
+
+        background-color: #e6e1d9;
+        width: 300px;
+        height: 330px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 5px;
+
+    }
+
+    .userBar div span {
+
+        /* background-color: #7934f9; */
+        height: 100px;
+        display: flex;
+        align-items: center;
+
+
+    }
+
+    .userBar div span svg {
+
+        width: 15px;
+        border-radius: 10px;
+        height: 20px;
+        fill: #7934f9;
+    }
+
+    .userBar div span p {
+
+        background-color: #e6e1d9;
+        width: 100px;
+        text-align: center;
+        font-size:13px;
+    }
+
+ .userBar div .iconsBar  {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .userBar div .iconsBar span {
+
+    /* background-color: #e6e1d9; */
+    width: 130px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+ .userBar div .iconsBar span svg {
+
+    background-color: white;
+    width: 20px;
+    padding: 6px;
+    border-radius: 5px;
+ }
+
+
+
+  .userBar .usersCommit {
+        height: 150px;
+        font-size: 13px;
+        padding: 5px;
+  }
+
+    .questionsBar {
+
+        width: 1250px;
+        margin-left:auto;
+        margin-right: auto;
+        height: 500px;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: burlywood 1px solid;
+    }
+
+    .questionsBar div {
+
+        background-color:white;
+        width: 500px;
+        height: 420px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 10px;
+        border-radius: 10px;
+
+
+    }
+
+    .questionsBar div span {
+
+        background-color: #e6e1d9;
+        border-radius: 10px;
+        font-size: 12px;
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+    }
+
+   
+    .questionsBar div svg {
+
+        background-color: white;
+        padding: 5px;
+        border-radius: 5px;
+        width: 12px;
+    }
+
+    .questionsBar .rateBar {
+
+        background-color:#eeebe5 ;
+    }
+    .questionsBar .rateBar div {
+
+        background-color: white;
+        width: 240px;
+        height: 250px;
+        margin-bottom: 150px;
+        align-self: self-end;
+        font-size: 10px;
+        border-radius: 10px; 
+
+    }
+
+    .questionsBar .rateBar svg {
+        background-color: white;
+        width: 25px;
+        fill: white;
+        background-color: blue;
+        height: 25px;
+        padding: 5px;
+        border-radius: 2px;
+        box-shadow: #7934f9 1px 2px 5px 5px;
+    }
+
+    .questionsBar .rateBar button {
+
+        border: none;
+        background-color: blue;
+        width: 130px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .questionsBar .rateBar button svg {
+
+        width: 13px;
+        margin-top: 3px;
+        box-shadow: none;        
+    }
+
+
+
+    .section5 {
+
+        display: flex;
+        width: 1250px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
+    }
+
+    .section5 div {
+
+        width: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 15px;
+    }
+
+    .section5 div p {
+
+        color: #3b079d;
+    }
+
+    .section5 .icons  svg {
+
+        background-color: blue;
+        width: 20px;
+        padding: 12px;
+        border-radius: 5px;
+        box-shadow: #7934f9 1px 2px 5px 5px;
+        margin: 10px;
+        
+    } 
+
+    .section6 {
+        background-color:#e6e1d9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 900px;
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+
+    .section6 div {
+
+        width: 300px;
+        padding: 15px;
+        margin: 10px;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        border-radius: 5px;
+    }
+
+    .section6 div svg {
+
+        width: 20px;
     }
