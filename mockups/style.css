@@ -640,7 +640,7 @@ nav:hover {
         width: 20px;
         padding: 12px;
         border-radius: 5px;
-        box-shadow: #7934f9 1px 2px 5px 5px;
+        box-shadow: #7934f9 1px 2px 4px 4px;
         margin: 10px;
         
     } 
@@ -671,4 +671,5 @@ nav:hover {
     .section6 div svg {
 
         width: 20px;
+        margin: 10px;
     }
