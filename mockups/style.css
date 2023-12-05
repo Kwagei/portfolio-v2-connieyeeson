@@ -25,6 +25,13 @@ body {
     align-items: center;
 }
 
+.heading a {
+
+    text-decoration: none;
+    color: black;
+}
+
+
 .heading p {
     color: #7934f9;
     cursor: pointer;
@@ -49,8 +56,7 @@ body {
     margin-right: 10px;
     width: 14px;
 }
-
-nav:hover {
+ a:hover {
 
    cursor: pointer;
    background-color: #ffffff; 
@@ -129,7 +135,7 @@ nav:hover {
 
 .viewPort button {
 
-    background-color: #7934f9;
+    background-color: #0000ff;
     border: none;
     border-radius: 5px;
     text-align: center;
@@ -584,7 +590,7 @@ nav:hover {
         background-color: white;
         width: 25px;
         fill: white;
-        background-color: blue;
+        background-color: #0000ff;
         height: 25px;
         padding: 5px;
         border-radius: 2px;
